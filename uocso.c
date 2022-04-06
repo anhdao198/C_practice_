@@ -1,0 +1,20 @@
+/* tim uoc so cua mot so nguyen nhap vao
+*/
+
+#include<stdio.h>
+
+int main()
+{
+    int i, n;
+    printf("\nNhap n: ");
+    scanf("%d", &n);
+    i = 1;
+    
+    while(i <= n)
+    {
+        if(n % i == 0)
+            printf("%4d", i);
+        i += 1;
+    }
+    return 0;
+}
